@@ -5,7 +5,7 @@ import requests
 import os
 
 # --- CONFIG ---
-LLAMAPARSE_API_KEY = os.getenv("LLAMAPARSE_API_KEY")
+LLAMAPARSE_API_KEY = os.getenv("llx-M6STbpYFdMZUxb0OLYxMIVR8av32fQdWhO9vbcuHtaXxDz9h")
 LLAMAPARSE_ENDPOINT = "https://api.llamaindex.ai/api/parsing/upload"
 
 st.set_page_config(page_title="📊 Financial Statement Analyzer", layout="wide")
